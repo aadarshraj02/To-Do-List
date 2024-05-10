@@ -17,5 +17,9 @@ function addTodoListItem(){
     toDoDiv.appendChild(deleteButton);
     todoList.appendChild (toDoDiv);
     textArea.value = '';
-    
+
 }
+todoList.addEventListener("click",deleteItem);
+function deleteItem(){
+    
+} 
