@@ -20,6 +20,11 @@ function addTodoListItem(){
 
 }
 todoList.addEventListener("click",deleteItem);
-function deleteItem(){
-    
+function deleteItem(e){
+    const item = e.target;
+
+    if(item.classList[0]=== 'deleteButton'){
+        const parent =item.parentElement;
+        parent.remove();
+    }
 } 
