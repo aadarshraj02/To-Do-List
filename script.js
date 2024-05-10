@@ -8,4 +8,5 @@ function addTodoListItem(){
     const item =document.createElement('p');
     item.innerHTML = textArea.value;
     toDoDiv.appendChild(item);
+    todoList.appendChild (toDoDiv)
 }
