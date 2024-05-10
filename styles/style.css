@@ -28,3 +28,10 @@ input{
     background-color: crimson;
     padding: 2%;
 }
+.deleteButton{
+    margin-top: 50%;
+    padding: 2px;
+    height: 40px;
+    width: 50px;
+    margin-left: 2px;
+}

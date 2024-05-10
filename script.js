@@ -12,6 +12,7 @@ function addTodoListItem(){
     item.innerHTML = textArea.value;
     toDoDiv.appendChild(item);
     const deleteButton = document.createElement("button");
+    deleteButton.classList.add("deleteButton");
     deleteButton.innerHTML = "Delete";
     toDoDiv.appendChild(deleteButton);
     todoList.appendChild (toDoDiv)
