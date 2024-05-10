@@ -6,4 +6,5 @@ function addTodoListItem(){
     
     const toDoDiv = document.createElement("div");
     const item =document.createElement('p');
+    item.innerHTML = textArea.value;
 }
