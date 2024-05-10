@@ -1,6 +1,6 @@
 const textArea = document.querySelector(".textarea");
 const button = document.querySelector("button");
-
+const todoList = document.querySelector(".todoList");
 button.addEventListener("click", addTodoListItem);
 function addTodoListItem(){
     
