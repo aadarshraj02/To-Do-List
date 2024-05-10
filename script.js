@@ -8,6 +8,7 @@ function addTodoListItem(){
     toDoDiv.classList.add("itemAll");
     const item =document.createElement('p');
     item.classList.add('item');
+    if (textArea.value == "") return;
     item.innerHTML = textArea.value;
     toDoDiv.appendChild(item);
     todoList.appendChild (toDoDiv)
