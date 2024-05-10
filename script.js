@@ -15,5 +15,7 @@ function addTodoListItem(){
     deleteButton.classList.add("deleteButton");
     deleteButton.innerHTML = "Delete";
     toDoDiv.appendChild(deleteButton);
-    todoList.appendChild (toDoDiv)
+    todoList.appendChild (toDoDiv);
+    textArea.value = '';
+    
 }
